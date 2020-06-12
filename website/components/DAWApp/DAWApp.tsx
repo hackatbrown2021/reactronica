@@ -1,5 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
+// Window is undefined - wait for recoil to fix SSR
+import { RecoilRoot, atom } from 'recoil';
 
 import App from '../App';
 import ReactronicaLogo from '../ReactronicaLogo';

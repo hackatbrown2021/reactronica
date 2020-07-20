@@ -219,14 +219,16 @@ const DAWAppContainer = () => {
   const [currentStepIndex, setCurrentStepIndex] = React.useState();
 
   return (
-    <StepIndexContext.Provider
-      value={{
-        currentStepIndex,
-        setCurrentStepIndex,
-      }}
-    >
-      <MemoDAWApp />
-    </StepIndexContext.Provider>
+    <RecoilRoot>
+      <StepIndexContext.Provider
+        value={{
+          currentStepIndex,
+          setCurrentStepIndex,
+        }}
+      >
+        <MemoDAWApp />
+      </StepIndexContext.Provider>
+    </RecoilRoot>
   );
 };
 

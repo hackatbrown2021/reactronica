@@ -33,7 +33,7 @@
     "react-ga": "^2.7.0",
     "react-select": "^3.0.8",
     "reactronica": "^0.4.0",
-    "recoil": "0.0.8",
+    "recoil": "0.0.10",
     "webmidi": "^2.5.1"
   },
   "devDependencies": {
